@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quick Loop Demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+	div{
+		font-size:30px;
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div>Div 1</div>
+	<div>Div 2</div>
+	<div>Div 3</div>
+	<div>Div 4</div>
+	<div>Div 5</div>
+	<div>Div 6</div>
+	<div>Div 7</div>
+
+
+<script type="text/javascript">
+
+	dataList = document.getElementsByTagName('div')
+	console.log(dataList)
+
+	list=["Sunday","Monday","Tuesday","Wendsday","Thursday","Friday","Saturday"]
+
+	for (i=0;i<dataList.length;i++)
+	{
+		dataList[i].innerHTML=list[i]
+	}
+
+	var helloWorld = function(){
+		console.log("helloWorld")
+	}
+	helloWorld()
+
+
+</script>
+
+
+</body>
+
+</html>
