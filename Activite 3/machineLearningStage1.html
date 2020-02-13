@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js">
+</script>
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	
+	const app = new Clarifai.App({ 
+    apiKey: '9dc0668122034d3cbf968c567d19bdb3' 
+}); 
+
+
+</script>
+
+
+<script type="text/javascript">
+app.models.predict("bd367be194cf45149e75f01d59f77ba7", "https://samples.clarifai.com/food.jpg").then(
+    function(response) {
+      // do something with response
+      console.log(response)
+    },
+    function(err) {
+      // there was an error
+    }
+  );
+</script>
+</body>
+</html>
