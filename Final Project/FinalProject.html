@@ -8,6 +8,10 @@ body{
 	 opacity:0; /* This makes everything invisible -- the script reverses it when everything is loaded*/
 }
 
+	#scroll_up{
+		opacity: 0;
+	}	
+	
 .grid-container {
   display: grid;
   font-family: 'Fira Sans', sans-serif;
@@ -23,9 +27,13 @@ body{
 }
 
 .title {
+
   grid-column: 1 / span 4;
   grid-row: 5;
-  padding: 400px;
+  padding-top: 400px;
+  padding-right: 0px;
+  padding-bottom: 400px;
+  padding-left: 0px;
 }
 
 .missionstatement {
@@ -64,6 +72,7 @@ body{
 
 <div class="grid-container">
   <div class="grid-item title">
+	  <p id="scroll_up">Scroll Up</p>
   	<h1>How Energy Will Change The Future</h1>
   </div>
   <div class="grid-item missionstatement">
@@ -71,20 +80,19 @@ body{
   	  		<p>To work for the protection of all human rights for all people</p>
   </div>
   <div class="grid-item art">
-  	  	<p><p>
-  	  	<img src="sdg9.png" alt="sdg9" width="400">
-	  	<img src="sdg11.png" alt="sdg11" width="400">
+  	  	<p></p>
+	  <img src="sdg9.png" alt="sdg9" width="42%">	  <img src="sdg11.png" alt="sdg11" width="42%">
 
   </div>  
   <div class="grid-item description">
   	  	<h3>The Goal Of The Website</h3>
-  	  	<p>The goal of the website is to teach people about how <p>
+  	  	<p>The goal of the website is to teach people about how </p>
   </div>
   <div class="grid-item graph">
-  	  	<p>graph<p>
+  	  	<p>graph</p>
   </div>
    <div class="grid-item donation">
-  	  	<p>https://www.ontario-sea.org/ **Put link and make nice ltr<p>
+  	  	<p>https://www.ontario-sea.org/ **Put link and make nice ltr</p>
   </div>
 
 </div>
