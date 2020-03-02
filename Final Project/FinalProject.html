@@ -3,100 +3,82 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
 <style>
-
-body{
-	 opacity:0; /* This makes everything invisible -- the script reverses it when everything is loaded*/
+body {
+    opacity: 0; /* This makes everything invisible -- the script reverses it when everything is loaded*/
 }
-
-	#scroll_up{
-		opacity: 0;
-	}	
-	
+#scroll_up {
+    opacity: 0;
+}
 .grid-container {
-  display: grid;
-  font-family: 'Fira Sans', sans-serif;
-
- /* grid-gap: 10px;
+    display: grid;
+    font-family: 'Fira Sans', sans-serif;/* grid-gap: 10px;
   padding: 10px;*/
 }
-
 .grid-item {
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
 }
-
 .title {
-
-  grid-column: 1 / span 4;
-  grid-row: 5;
-  padding-top: 400px;
-  padding-right: 0px;
-  padding-bottom: 400px;
-  padding-left: 0px;
+    grid-column: 1 / span 4;
+    grid-row: 5;
+    padding-top: 400px;
+    padding-right: 0px;
+    padding-bottom: 400px;
+    padding-left: 0px;
 }
-
 .missionstatement {
-  grid-column: 3 / span 1;
-  grid-row: 4;
+    grid-column: 3 / span 1;
+    grid-row: 4;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 200px;
+    padding-left: 0px;
 }
-
 .art {
-  grid-column: 1 / span 4;
-  grid-row: 3;
+    grid-column: 1 / span 4;
+    grid-row: 3;
 }
-
-
 .description {
-  grid-column: 0 / span 3;
-  grid-row: 2;
+    grid-column: 0 / span 3;
+    grid-row: 2;
 }
-
 .graph {
-  grid-column: 4 / span 2;
-  grid-row: 2;
+    grid-column: 4 / span 2;
+    grid-row: 2;
 }
 .donation {
-  grid-column: 1 / span 4;
-  grid-row: 0;
-  background: #ffffff;
-  width: 100%;
+    grid-column: 1 / span 4;
+    grid-row: 0;
+    background: #ffffff;
+    width: 100%;
 }
-
-
-
 </style>
 </head>
 <body>
-
-
 <div class="grid-container">
   <div class="grid-item title">
-	  <p id="scroll_up">Scroll Up</p>
-  	<h1>How Energy Will Change The Future</h1>
+    <p id="scroll_up">Scroll Up</p>
+    <h1>How Energy Will Change The Future</h1>
   </div>
-  <div class="grid-item missionstatement">
-  	  	<h2>U.N Mission statement</h2>
-  	  		<p>To work for the protection of all human rights for all people</p>
+  <div class="grid-item missionstatement" id = "missionstatement">
+    <h2>U.N Mission statement</h2>
+    <p>To work for the protection of all human rights for all people</p>
   </div>
   <div class="grid-item art">
-  	  	<p></p>
-	  <img src="sdg9.png" alt="sdg9" width="42%">	  <img src="sdg11.png" alt="sdg11" width="42%">
-
-  </div>  
+    <p></p>
+    <img src="sdg9.png" alt="sdg9" width="42%"> <img src="sdg11.png" alt="sdg11" width="42%"> </div>
   <div class="grid-item description">
-  	  	<h3>The Goal Of The Website</h3>
-  	  	<p>The goal of the website is to teach people about how </p>
+    <h3>The Goal Of The Website</h3>
+    <p>The goal of he website is to teach people to support  </p>
   </div>
   <div class="grid-item graph">
-  	  	<p>graph</p>
+    <p>graph</p>
   </div>
-   <div class="grid-item donation">
-  	  	<p>https://www.ontario-sea.org/ **Put link and make nice ltr</p>
+  <div class="grid-item donation">
+    <p>https://www.ontario-sea.org/ **Put link and make nice ltr</p>
   </div>
-
 </div>
 <script src="script.js"></script>
-
 </body>
 </html>
